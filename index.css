@@ -1,0 +1,176 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color:black;
+}
+
+.header-bg {
+  background-image: url('header2.jpg'); /* Add your header background image */
+  background-size: cover;
+  background-position: center;
+  color:black;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+.products-bg {
+  background-image: url('back1.jpg'); /* Add your product section background image */
+  background-size: cover;
+  background-color:orange; /* Add a background color */
+  text-align: center;
+  padding: 50px 0;
+}
+
+.welcome-bg {
+  background-image: url('welcome-bg.jpg'); /* Add your welcome section background image */
+  background-size: cover;
+  background-color: yellow; /* Add a background color */
+  color:orange;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+.footer-bg {
+  background-image: url('footer-bg.jpg'); /* Add your footer background image */
+  background-size: cover;
+  background-color: #333; /* Add a background color */
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.fifty-fifty {
+  width: 400px;
+  height: 400px;
+}
+.about-bg {
+  background-image: url('bg2.webp'); /* Add your product section background image */
+  background-size: cover;
+  background-color:orange; /* Add a background color */
+  text-align: center;
+  padding: 50px 0;
+}
+/* Your existing styles */
+
+.contact-bg {
+  background-image: url('contact.jpg'); /* Add your contact section background image */
+  background-size: cover;
+  background-color: #ecf0f1; /* Add a background color */
+  color: #333;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact-bg form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-bg form label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.contact-bg form input,
+.contact-bg form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+
+
+
+.social-bg {
+  background-image: url('social-bg.jpg'); /* Add your social media section background image */
+  background-size: cover;
+  background-color:yellow; /* Add a background color */
+  color: black;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  margin: 0 10px;
+}
+
+.social-icon img {
+  width: 50px; /* Set the width of the social media icons */
+  height: 50px; /* Set the height of the social media icons */
+  border-radius: 50%; /* Make the icons circular */
+}
+/* Your existing styles */
+
+.home-bg {
+  background-image: url('hom1.webp'); /* Add your home section background image */
+  background-size: cover;
+  background-position: center;
+  color:black;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.home-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Your existing styles */
+
+
