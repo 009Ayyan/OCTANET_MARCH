@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkgoldenrod;
+    margin: 0;
+    padding: 0;
+}
+
+#todo-list {
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('f4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 8px;
+    background-color:burlywood;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+.color{
+	background-color:palevioletred;
+}
+.background-image {
+    background-image: url('back2.jpg');
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-position: center;
+  }
+
